@@ -23,7 +23,6 @@ export default function Navbar() {
                 <nav className="hidden md:flex items-center gap-6">
                     <Link to="/" className={`text-sm font-medium transition hover:text-indigo-400 ${location.pathname === '/' ? 'text-indigo-400' : 'text-slate-300'}`}>Products</Link>
                     <Link to="/cart" className={`text-sm font-medium transition hover:text-indigo-400 ${location.pathname === '/cart' ? 'text-indigo-400' : 'text-slate-300'}`}>Cart</Link>
-                    <Link to="/structure" className={`text-sm font-medium transition hover:text-indigo-400 ${location.pathname === '/structure' ? 'text-indigo-400' : 'text-slate-300'}`}>Folder Structure</Link>
                 </nav>
 
                 <button

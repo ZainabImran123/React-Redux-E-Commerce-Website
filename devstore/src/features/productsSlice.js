@@ -38,7 +38,6 @@ const fallbackProducts = [
     { id: 27, title: "Pierced Owl Rose Gold Plated Stainless Steel Double", price: 10.99, description: "Rose Gold Plated Double Flared Tunnel Plug. Made of 316L Stainless Steel.", category: "jewelery", image: "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=500&auto=format&fit=crop&q=60", rating: { rate: 1.9, count: 100 } },
     { id: 28, title: "Minimalist Sterling Silver Pendant Necklace", price: 45.00, description: "Dainty geometric sterling silver necklace designed for daily elegant wear.", category: "jewelery", image: "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=500&auto=format&fit=crop&q=60", rating: { rate: 4.7, count: 115 } },
     { id: 29, title: "Classic Hoop Earrings in 14K Gold", price: 85.00, description: "Lightweight hollow tube gold hoop earrings with secure click-top closure.", category: "jewelery", image: "https://images.unsplash.com/photo-1630019852942-f89202989a59?w=500&auto=format&fit=crop&q=60", rating: { rate: 4.8, count: 220 } },
-    { id: 30, title: "Vintage Stainless Steel Signet Ring", price: 24.50, description: "Bold vintage ring crafted for durability and timeless aesthetic style.", category: "jewelery", image: "https://images.unsplash.com/photo-1622398925373-3f91b17c373b?w=500&auto=format&fit=crop&q=60", rating: { rate: 4.4, count: 98 } }
 ];
 
 export const fetchProducts = createAsyncThunk(
